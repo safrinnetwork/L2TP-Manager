@@ -2,6 +2,10 @@
 
 Interactive L2TP server installation and management script for Ubuntu VPS. Designed to provide secure tunnel access to MikroTik routers without public IP addresses through port forwarding.
 
+# Guide
+
+https://youtu.be/x9Py3JSm-aI
+
 ## Overview
 
 This project provides a complete solution for:
