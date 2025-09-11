@@ -13,16 +13,24 @@ This project provides a complete solution for:
 ## Quick Start
 
 1. **Download and run the script:**
+      ```bash
+   git clone https://github.com/safrinnetwork/L2TP-Manager/
+   ```
+   ```bash
+   cd L2TP-Manager
+   ```
    ```bash
    chmod +x l2tp-manager.sh
+   ```
+   ```bash
    ./l2tp-manager.sh
    ```
 
-2. **Select option 1 to auto-install L2TP server**
+3. **Select option 1 to auto-install L2TP server**
 
-3. **Add L2TP users using option 3**
+4. **Add L2TP users using option 3**
 
-4. **Configure port forwards using option 7**
+5. **Configure port forwards using option 7**
 
 ## Features
 
