@@ -59,10 +59,10 @@ validate_script_integrity() {
     
     # Check for unauthorized modifications (e.g., changing author name)
     local suspicious_patterns=(
-        "Made by [^M]"  # Looking for "Made by" followed by non-M character
-        "Created by [^M]"  # Similar for "Created by"
+        "Made by [^M][a-zA-Z]"
+        "Created by [^M][a-zA-Z]"
     )
-    
+
     for pattern in "${suspicious_patterns[@]}"; do
         if echo "$script_content" | grep -E "$pattern" | grep -v "Mostech"; then
             echo -e "${RED}=================== INTEGRITY ERROR ===================${NC}"
